@@ -1,0 +1,4 @@
+- 👋 Oi, eu sou @Caduu0
+- 🌱 Estou aprendendo programação (.lua/.html/.css/.js)
+- 💞️ Estou criando um projeto aí
+- 📫 Contato: suport.caduu0@hotmail.com
