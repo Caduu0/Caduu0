@@ -6,22 +6,17 @@
 	<style>
 		body{
 			min-width:960px;
-			margin:0px;
-			font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-			min-width:900px;
-			height:100%;
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:12px;
 			background:#ff0000;
-		}
-		#container{
-			width:900px;
-			margin:0px auto;
-			height:100%;
+			color:#36352e;
+			margin:0px;
 		}
 		#menu{
 			width:100%;
 			height:35px;
 			line-height:35px;
-			background:#cccccc;
+			background-color:#ffcccc;
 			border-bottom: 2px groove #000000;
 			border-top: 2px groove #000000;
 			text-align:center;
@@ -36,7 +31,7 @@
 		#menu a:hover{
 			text-decoration:none;
 			color:#ffffff;
-			background:#666666;
+			background-color:#666666;
 		}
 		#menu a:visited{
 			text-decoration:none;
@@ -48,40 +43,41 @@
 			height:150px;
 			font-size:30px;
 			text-align:center;
-			background:#ffcccc;
+			background:#ffb3b3;
+		}
+		#container{
+			width:900px;
+			margin:0px auto;
+			height:100%;
+		}
+		#corpo{
+			background:#ffb3b3;
+			float:right;
+			width:880px;
+			min-height:400px;
+			padding:10px;
 		}
 		.titulo{
 			font-size:16px;
 			margin-bottom:20px 0px 0px 0px;
 			color:#78776e;
 		}
-		#corpo{
-			background:#ffcccc;
-			float:right;
-			font-size:32px;
-			min-height:400px;
-			width:880px;
+		#corpo ul{
+			width:305px;
 			padding:10px;
+			list-style-type:none;
+			font-size:20px;
+		}
+		#corpo ul li{
+			border-top:1px dashed #ffe6e6;
+			border-bottom:1px dashed #ffe6e6;
+			padding:3px;
 		}
 		#corpo img{
-			width:90%;
-		}
-		#corpo p{
-			margin:5px 0px 0px 0px;
-			font-size:20px;
-		}
-		#corpo h2{
-			margin-bottom:0px;
-			font-size:30px;
-		}
-		#corpo h3{
-			margin-bottom:0px;
-			font-size:20px;
-			font-weight:bold;
-		}
-		#pagamento img{
-			width:30%;
-			border:1px solid #cccccc;
+			width:250px;
+			height:150px;
+			padding:10px;
+			margin-left:10px;
 		}
 	</style>
 </head>
@@ -97,16 +93,18 @@
 		<a href="contato.html">Contato</a>
 	</div>
 	<div id="corpo">
-		<h2 class="titulo">Bem vindo a nossa Oficina de Carros!<br/>
-		Aqui consertamos qualquer tipo de carro.</h2>
-		<p>Desde os mais antigos:</p>
-		<img src="imgs/carroantigo.jpg" alt="">
-		<p>Até os mais novos:</p>
-		<img src="imgs/carroluxo.jpg" alt="">
-	</div>
-	<div id="pagamento">
-		<h3>Aceitamos todos os tipos de pagamento.</h3>
-		<img src="imgs/pagamento.png" alt="">
+		<h1 class="titulo">Aqui está alguns tipos de serviços feitos por nossa oficina:</h1>
+		<ul>
+			<li>Consertos de veículos</li>
+			<li>Instalação de turbo/nitro</li>
+			<li>Instalação de body kit</li>
+			<li>Instalação de neon/xenon</li>
+			<li>Instalação de suspenção de ar</li>
+			<li>Pintura</li>
+		</ul>
+		<img src="imgs/fundo.jfif" alt="Oficina de Carros"/>
+		<img src="imgs/carroantigo3.jpg" alt="Oficina de Carros"/>
+		<img src="imgs/carroantigo2.jpg" alt="Oficina de Carros"/>
 	</div>
 	</div>
 </body>
